@@ -1,0 +1,43 @@
+body {
+  background-color: brown;
+  /* width: 100%;
+  height: 100%; */
+}
+
+.column_container {
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+  background-color: bisque;
+  padding: 2%;
+  margin: 0%;
+  width: 100%;
+  height: 100%;
+
+}
+
+.row_container {
+  list-style: none;
+  /* display: flex; */
+  /* justify-content:space-evenly; */
+  background-color: blue;
+  /* padding: 2%;
+  margin: 0%; */
+  /* width: 100%;
+  height: 100%; */
+}
+
+.graph_container {
+  /* background-color: aqua;
+  display: flex;
+  justify-content: space-around;
+  border-radius: 10%;
+  margin: 10px;
+  width: 80%;
+  height: 20px; */
+}
+
+.graph_logo{
+  border-radius: 1px;
+  box-shadow: 0.5px 1px 1px 0.2px;
+}

@@ -1,0 +1,30 @@
+{
+    "links": [
+        {
+            "conditions": [
+                {
+                    "sensor": {
+                        "Humidity": null
+                    },
+                    "op": {
+                        "Greater": 0.0
+                    },
+                    "func_t": {
+                        "Constant": 56.0
+                    }
+                },
+                {
+                    "sensor": {
+                        "NormalizedTime": null
+                    },
+                    "op": {
+                        "Greater": 0.0
+                    },
+                    "func_t": {
+                        "Constant": 0.0005785
+                    }
+                }
+            ]
+        }
+    ]
+}
